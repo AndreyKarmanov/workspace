@@ -9,8 +9,7 @@ class MinimalService(Node):
 
     def __init__(self):
         super().__init__('minimal_service')
-        self.srv = self.create_service(
-            AddThreeInts, 'add_two_ints', self.add_three_ints_callback)
+        self.srv = self.create_service(AddThreeInts, 'add_two_ints', self.add_three_ints_callback)
 
     def add_three_ints_callback(self, request: AddThreeInts.Request, response: AddThreeInts.Response) -> AddThreeInts.Response:
         response.sum = request.a + request.b + request.c

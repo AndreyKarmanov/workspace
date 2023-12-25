@@ -1,6 +1,7 @@
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, ExecuteProcess
 from launch.substitutions import LaunchConfiguration, TextSubstitution
+from launch_ros.actions import Node
 
 def generate_launch_description():
   addThree_a = DeclareLaunchArgument(
@@ -21,13 +22,29 @@ def generate_launch_description():
     description='Argument for addThree_c'
   )
 
-  client_node = ExecuteProcess(
-    cmd=['ros2', 'run', 'my_services', 'client_node', LaunchConfiguration('addThree_a'), LaunchConfiguration('addThree_b'), LaunchConfiguration('addThree_c')],
-    output='screen'
+  # other way to run Node
+  # client_node = ExecuteProcess( 
+  #   cmd=['ros2', 'run', 'my_services', 'client_node', LaunchConfiguration('addThree_a'), LaunchConfiguration('addThree_b'), LaunchConfiguration('addThree_c')],
+  #   output='screen'
+  # )
+
+  client_node = Node(
+    package='my_services',
+    executable='client_node',
+    name='client_node',
+    output='screen',
+    parameters=[
+      {'a': LaunchConfiguration('addThree_a')},
+      {'b': LaunchConfiguration('addThree_b')},
+      {'c': LaunchConfiguration('addThree_c')}
+    ],
+    arguments=[]
   )
 
-  service_node = ExecuteProcess(
-    cmd=['ros2', 'run', 'my_services', 'service_node'],
+  service_node = Node(
+    package='my_services',
+    executable='service_node',
+    name='service_node',
     output='screen'
   )
 
