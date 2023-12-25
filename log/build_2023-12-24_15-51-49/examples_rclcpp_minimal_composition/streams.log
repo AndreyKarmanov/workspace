@@ -1,0 +1,63 @@
+[0.264s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/andrey/Documents/workspace/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition
+[0.312s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.460s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.484s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[0.517s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.529s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.547s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.815s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.816s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.995s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.223s] -- Found rclcpp_components: 21.0.4 (/opt/ros/iron/share/rclcpp_components/cmake)
+[1.358s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.407s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.490s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.492s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.493s] -- Configured cppcheck include dirs: /home/andrey/Documents/workspace/src/examples/rclcpp/composition/minimal_composition/include
+[1.493s] -- Configured cppcheck exclude dirs and/or files: 
+[1.494s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.494s] -- Configured cpplint exclude dirs and/or files: 
+[1.495s] -- Added test 'lint_cmake' to check CMake code style
+[1.497s] -- Added test 'uncrustify' to check C / C++ code style
+[1.497s] -- Configured uncrustify additional arguments: 
+[1.497s] -- Added test 'xmllint' to check XML markup files
+[1.501s] -- Configuring done
+[1.548s] -- Generating done
+[1.550s] -- Build files have been written to: /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition
+[1.587s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/andrey/Documents/workspace/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition
+[1.587s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[1.713s] [35m[1mConsolidate compiler generated dependencies of target composition_nodes[0m
+[1.756s] [ 33%] Built target composition_nodes
+[1.771s] [35m[1mConsolidate compiler generated dependencies of target composition_publisher[0m
+[1.774s] [35m[1mConsolidate compiler generated dependencies of target composition_subscriber[0m
+[1.775s] [35m[1mConsolidate compiler generated dependencies of target composition_composed[0m
+[1.806s] [ 55%] Built target composition_publisher
+[1.816s] [ 77%] Built target composition_subscriber
+[1.816s] [100%] Built target composition_composed
+[1.910s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[2.101s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition
+[2.197s] -- Install configuration: ""
+[2.197s] -- Execute custom install script
+[2.198s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[2.198s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[2.198s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[2.198s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[2.199s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[2.199s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[2.199s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[2.199s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[2.199s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[2.199s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[2.200s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[2.200s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[2.200s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[2.201s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[2.201s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[2.202s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[2.202s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[2.202s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[2.202s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[2.203s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[2.203s] -- Up-to-date symlink: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[2.449s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_composition

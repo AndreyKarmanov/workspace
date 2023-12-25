@@ -1,0 +1,27 @@
+[1.031s] Invoking command in '/home/andrey/Documents/workspace/build/launch_testing_examples': PYTHONPATH=/home/andrey/Documents/workspace/build/launch_testing_examples/prefix_override:/home/andrey/Documents/workspace/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/andrey/Documents/workspace/build/launch_testing_examples/build --no-deps install_data
+[1.267s] running develop
+[1.267s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.267s]   warnings.warn(
+[1.268s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.268s]   warnings.warn(
+[1.402s] running egg_info
+[1.402s] creating launch_testing_examples.egg-info
+[1.402s] writing launch_testing_examples.egg-info/PKG-INFO
+[1.402s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[1.402s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[1.402s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[1.402s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[1.402s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.404s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.404s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.406s] running build_ext
+[1.406s] Creating /home/andrey/Documents/workspace/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[1.407s] 
+[1.407s] Installed /home/andrey/Documents/workspace/build/launch_testing_examples
+[1.407s] running install_data
+[1.407s] creating /home/andrey/Documents/workspace/install/launch_testing_examples/share/ament_index
+[1.407s] creating /home/andrey/Documents/workspace/install/launch_testing_examples/share/ament_index/resource_index
+[1.407s] creating /home/andrey/Documents/workspace/install/launch_testing_examples/share/ament_index/resource_index/packages
+[1.407s] copying resource/launch_testing_examples -> /home/andrey/Documents/workspace/install/launch_testing_examples/share/ament_index/resource_index/packages
+[1.407s] copying package.xml -> /home/andrey/Documents/workspace/install/launch_testing_examples/share/launch_testing_examples
+[1.428s] Invoked command in '/home/andrey/Documents/workspace/build/launch_testing_examples' returned '0': PYTHONPATH=/home/andrey/Documents/workspace/build/launch_testing_examples/prefix_override:/home/andrey/Documents/workspace/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/andrey/Documents/workspace/build/launch_testing_examples/build --no-deps install_data

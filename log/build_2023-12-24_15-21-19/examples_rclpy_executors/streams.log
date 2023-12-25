@@ -1,0 +1,33 @@
+[8.748s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclpy_executors': PYTHONPATH=/home/andrey/Documents/workspace/build/examples_rclpy_executors/prefix_override:/home/andrey/Documents/workspace/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/andrey/Documents/workspace/build/examples_rclpy_executors/build --no-deps install_data
+[9.281s] running develop
+[9.281s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.281s]   warnings.warn(
+[9.282s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.282s]   warnings.warn(
+[9.478s] running egg_info
+[9.478s] creating examples_rclpy_executors.egg-info
+[9.478s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[9.478s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[9.479s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[9.479s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[9.479s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[9.479s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[9.481s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[9.482s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[9.483s] running build_ext
+[9.484s] Creating /home/andrey/Documents/workspace/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[9.484s] Installing callback_group script to /home/andrey/Documents/workspace/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[9.485s] Installing composed script to /home/andrey/Documents/workspace/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[9.485s] Installing custom_callback_group script to /home/andrey/Documents/workspace/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[9.485s] Installing custom_executor script to /home/andrey/Documents/workspace/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[9.485s] Installing listener script to /home/andrey/Documents/workspace/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[9.485s] Installing talker script to /home/andrey/Documents/workspace/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[9.485s] 
+[9.485s] Installed /home/andrey/Documents/workspace/build/examples_rclpy_executors
+[9.486s] running install_data
+[9.486s] creating /home/andrey/Documents/workspace/install/examples_rclpy_executors/share/ament_index
+[9.486s] creating /home/andrey/Documents/workspace/install/examples_rclpy_executors/share/ament_index/resource_index
+[9.486s] creating /home/andrey/Documents/workspace/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[9.486s] copying resource/examples_rclpy_executors -> /home/andrey/Documents/workspace/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[9.486s] copying package.xml -> /home/andrey/Documents/workspace/install/examples_rclpy_executors/share/examples_rclpy_executors
+[9.748s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/andrey/Documents/workspace/build/examples_rclpy_executors/prefix_override:/home/andrey/Documents/workspace/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/andrey/Documents/workspace/build/examples_rclpy_executors/build --no-deps install_data

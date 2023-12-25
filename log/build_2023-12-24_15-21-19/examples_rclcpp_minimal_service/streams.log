@@ -1,0 +1,67 @@
+[0.198s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/andrey/Documents/workspace/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service
+[0.390s] -- The C compiler identification is GNU 11.4.0
+[0.539s] -- The CXX compiler identification is GNU 11.4.0
+[0.553s] -- Detecting C compiler ABI info
+[0.657s] -- Detecting C compiler ABI info - done
+[0.658s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.658s] -- Detecting C compile features
+[0.660s] -- Detecting C compile features - done
+[0.664s] -- Detecting CXX compiler ABI info
+[0.783s] -- Detecting CXX compiler ABI info - done
+[0.792s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.792s] -- Detecting CXX compile features
+[0.793s] -- Detecting CXX compile features - done
+[0.797s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.011s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.087s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.126s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[1.188s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.208s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.643s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[1.790s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.792s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.954s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.995s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.053s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.305s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.403s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.404s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.404s] -- Configured cppcheck include dirs: 
+[2.404s] -- Configured cppcheck exclude dirs and/or files: 
+[2.405s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.405s] -- Configured cpplint exclude dirs and/or files: 
+[2.406s] -- Added test 'lint_cmake' to check CMake code style
+[2.407s] -- Added test 'uncrustify' to check C / C++ code style
+[2.407s] -- Configured uncrustify additional arguments: 
+[2.407s] -- Added test 'xmllint' to check XML markup files
+[2.410s] -- Configuring done
+[2.426s] -- Generating done
+[2.429s] -- Build files have been written to: /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service
+[2.456s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/andrey/Documents/workspace/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service
+[2.457s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service -- -j12 -l12
+[2.767s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[24.574s] [100%] [32m[1mLinking CXX executable service_main[0m
+[25.745s] [100%] Built target service_main
+[25.814s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service -- -j12 -l12
+[26.182s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service
+[29.097s] -- Install configuration: ""
+[29.097s] -- Execute custom install script
+[29.097s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[29.098s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[29.099s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[29.328s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_service

@@ -1,0 +1,111 @@
+[0.160s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/andrey/Documents/workspace/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber
+[2.275s] -- The C compiler identification is GNU 11.4.0
+[2.275s] -- The CXX compiler identification is GNU 11.4.0
+[2.275s] -- Detecting C compiler ABI info
+[2.275s] -- Detecting C compiler ABI info - done
+[2.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.275s] -- Detecting C compile features
+[2.275s] -- Detecting C compile features - done
+[2.275s] -- Detecting CXX compiler ABI info
+[2.275s] -- Detecting CXX compiler ABI info - done
+[2.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.276s] -- Detecting CXX compile features
+[2.276s] -- Detecting CXX compile features - done
+[2.276s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.276s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.276s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.276s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[2.276s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.276s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.276s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.277s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.277s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.277s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.277s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.277s] -- Found rclcpp_components: 21.0.4 (/opt/ros/iron/share/rclcpp_components/cmake)
+[2.277s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[2.285s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.420s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.421s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.421s] -- Configured cppcheck include dirs: 
+[2.421s] -- Configured cppcheck exclude dirs and/or files: 
+[2.421s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.421s] -- Configured cpplint exclude dirs and/or files: 
+[2.421s] -- Added test 'lint_cmake' to check CMake code style
+[2.421s] -- Added test 'uncrustify' to check C / C++ code style
+[2.421s] -- Configured uncrustify additional arguments: 
+[2.421s] -- Added test 'xmllint' to check XML markup files
+[2.421s] -- Configuring done
+[2.524s] -- Generating done
+[2.528s] -- Build files have been written to: /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber
+[2.565s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/andrey/Documents/workspace/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber
+[2.565s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[25.026s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[25.026s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[25.026s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[25.026s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[25.027s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[25.027s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[25.027s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[25.027s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[25.027s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[25.027s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[25.027s] [ 45%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[25.027s] [ 50%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[25.027s] [ 54%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[25.311s] [ 54%] Built target time_triggered_wait_set_subscriber
+[25.976s] [ 58%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[26.100s] [ 62%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[26.729s] [ 62%] Built target wait_set_subscriber
+[26.993s] [ 62%] Built target static_wait_set_subscriber
+[34.364s] [ 66%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[35.415s] [ 70%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[35.482s] [ 75%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[35.539s] [ 79%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[37.560s] [ 79%] Built target subscriber_not_composable
+[37.560s] [ 79%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[37.561s] [ 79%] Built target subscriber_member_function
+[37.587s] [ 79%] Built target subscriber_content_filtering
+[38.239s] [ 83%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[38.241s] [ 87%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[39.191s] [ 87%] Built target subscriber_member_function_with_topic_statistics
+[39.282s] [ 87%] Built target subscriber_lambda
+[39.473s] [ 91%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[39.697s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[40.342s] [ 95%] Built target subscriber_member_function_with_type_adapter
+[46.597s] [100%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[47.054s] [100%] Built target wait_set_subscriber_library
+[47.065s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[47.119s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber
+[47.126s] -- Install configuration: ""
+[47.126s] -- Execute custom install script
+[47.127s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[47.135s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[47.142s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[47.150s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[47.157s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[47.164s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[47.172s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[47.179s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[47.186s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[47.195s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[47.202s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[47.209s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[47.217s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[47.224s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[47.231s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[47.238s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[47.245s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[47.253s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[47.260s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[47.267s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[47.275s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[47.282s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[47.290s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[47.297s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[47.304s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[47.311s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[47.318s] -- Symlinking: /home/andrey/Documents/workspace/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[47.327s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/andrey/Documents/workspace/build/examples_rclcpp_minimal_subscriber

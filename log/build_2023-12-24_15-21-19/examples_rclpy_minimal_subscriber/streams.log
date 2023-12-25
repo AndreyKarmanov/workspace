@@ -1,0 +1,30 @@
+[1.702s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/andrey/Documents/workspace/build/examples_rclpy_minimal_subscriber/prefix_override:/home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/andrey/Documents/workspace/build/examples_rclpy_minimal_subscriber/build --no-deps install_data
+[1.921s] running develop
+[1.922s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.922s]   warnings.warn(
+[1.923s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.923s]   warnings.warn(
+[2.068s] running egg_info
+[2.068s] creating examples_rclpy_minimal_subscriber.egg-info
+[2.069s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[2.069s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[2.069s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[2.069s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[2.069s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[2.070s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.071s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.072s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.073s] running build_ext
+[2.073s] Creating /home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[2.074s] Installing subscriber_lambda script to /home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.074s] Installing subscriber_member_function script to /home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.074s] Installing subscriber_old_school script to /home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.074s] 
+[2.075s] Installed /home/andrey/Documents/workspace/build/examples_rclpy_minimal_subscriber
+[2.075s] running install_data
+[2.075s] creating /home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/share/ament_index
+[2.075s] creating /home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[2.075s] creating /home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.075s] copying resource/examples_rclpy_minimal_subscriber -> /home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.075s] copying package.xml -> /home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[2.165s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/andrey/Documents/workspace/build/examples_rclpy_minimal_subscriber/prefix_override:/home/andrey/Documents/workspace/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/andrey/Documents/workspace/build/examples_rclpy_minimal_subscriber/build --no-deps install_data

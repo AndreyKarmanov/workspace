@@ -1,0 +1,16 @@
+/home/andrey/Documents/workspace/install/my_cpp_package/lib/my_cpp_package/my_node
+/home/andrey/Documents/workspace/install/my_cpp_package/share/ament_index/resource_index/package_run_dependencies/my_cpp_package
+/home/andrey/Documents/workspace/install/my_cpp_package/share/ament_index/resource_index/parent_prefix_path/my_cpp_package
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.sh
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.dsv
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/environment/path.sh
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/environment/path.dsv
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/local_setup.bash
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/local_setup.sh
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/local_setup.zsh
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/local_setup.dsv
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/package.dsv
+/home/andrey/Documents/workspace/install/my_cpp_package/share/ament_index/resource_index/packages/my_cpp_package
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig.cmake
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig-version.cmake
+/home/andrey/Documents/workspace/install/my_cpp_package/share/my_cpp_package/package.xml

@@ -1,0 +1,105 @@
+[0.177s] Invoking command in '/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor': AMENT_PREFIX_PATH=/home/andrey/Documents/workspace/install/examples_rclcpp_multithreaded_executor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/andrey/Documents/workspace/install/examples_rclcpp_multithreaded_executor /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.849s] UpdateCTestConfiguration  from :/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[1.849s] Parse Config file:/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[1.849s]    Site: andrey
+[1.849s]    Build name: (empty)
+[1.849s]  Add coverage exclude regular expressions.
+[1.849s] Create new tag: 20231224-2022 - Experimental
+[1.850s] UpdateCTestConfiguration  from :/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[1.850s] Parse Config file:/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[1.850s] Test project /home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor
+[1.850s] Constructing a list of tests
+[1.850s] Done constructing a list of tests
+[1.851s] Updating test list for fixtures
+[1.851s] Added 0 tests to meet fixture requirements
+[1.851s] Checking test dependency graph...
+[1.851s] Checking test dependency graph end
+[1.851s] test 1
+[1.852s]     Start 1: copyright
+[1.852s] 
+[1.852s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/copyright.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/ament_copyright/copyright.txt" "--command" "/opt/ros/iron/bin/ament_copyright" "--xunit-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/copyright.xunit.xml"
+[1.852s] 1: Test timeout computed to be: 200
+[1.852s] 1: -- run_test.py: invoking following command in '/home/andrey/Documents/workspace/src/examples/rclcpp/executors/multithreaded_executor':
+[1.852s] 1:  - /opt/ros/iron/bin/ament_copyright --xunit-file /home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/copyright.xunit.xml
+[1.852s] 1: No problems found, checked 1 files
+[1.853s] 1: -- run_test.py: return code 0
+[1.853s] 1: -- run_test.py: verify result file '/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/copyright.xunit.xml'
+[1.853s] 1/6 Test #1: copyright ........................   Passed    0.26 sec
+[1.853s] test 2
+[1.853s]     Start 2: cppcheck
+[1.853s] 
+[1.854s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cppcheck.xunit.xml"
+[1.854s] 2: Test timeout computed to be: 300
+[1.854s] 2: -- run_test.py: invoking following command in '/home/andrey/Documents/workspace/src/examples/rclcpp/executors/multithreaded_executor':
+[1.854s] 2:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cppcheck.xunit.xml
+[1.854s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.854s] 2: -- run_test.py: return code 0
+[1.855s] 2: -- run_test.py: verify result file '/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cppcheck.xunit.xml'
+[1.855s] 2/6 Test #2: cppcheck .........................   Passed    0.21 sec
+[1.855s] test 3
+[1.855s]     Start 3: cpplint
+[1.855s] 
+[1.862s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/ament_cpplint/cpplint.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml"
+[1.862s] 3: Test timeout computed to be: 120
+[1.862s] 3: -- run_test.py: invoking following command in '/home/andrey/Documents/workspace/src/examples/rclcpp/executors/multithreaded_executor':
+[1.863s] 3:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml
+[1.863s] 3: Using '--root=..' argument
+[1.863s] 3: 
+[1.863s] 3: Done processing /home/andrey/Documents/workspace/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp
+[1.863s] 3: 
+[1.863s] 3: No problems found
+[1.864s] 3: -- run_test.py: return code 0
+[1.864s] 3: -- run_test.py: verify result file '/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml'
+[1.864s] 3/6 Test #3: cpplint ..........................   Passed    0.24 sec
+[1.864s] test 4
+[1.864s]     Start 4: lint_cmake
+[1.864s] 
+[1.864s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/iron/bin/ament_lint_cmake" "--xunit-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/lint_cmake.xunit.xml"
+[1.864s] 4: Test timeout computed to be: 60
+[1.865s] 4: -- run_test.py: invoking following command in '/home/andrey/Documents/workspace/src/examples/rclcpp/executors/multithreaded_executor':
+[1.865s] 4:  - /opt/ros/iron/bin/ament_lint_cmake --xunit-file /home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/lint_cmake.xunit.xml
+[1.865s] 4: 
+[1.865s] 4: No problems found
+[1.865s] 4: -- run_test.py: return code 0
+[1.865s] 4: -- run_test.py: verify result file '/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/lint_cmake.xunit.xml'
+[1.865s] 4/6 Test #4: lint_cmake .......................   Passed    0.17 sec
+[1.866s] test 5
+[1.866s]     Start 5: uncrustify
+[1.866s] 
+[1.866s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/uncrustify.xunit.xml"
+[1.866s] 5: Test timeout computed to be: 60
+[1.867s] 5: -- run_test.py: invoking following command in '/home/andrey/Documents/workspace/src/examples/rclcpp/executors/multithreaded_executor':
+[1.867s] 5:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/uncrustify.xunit.xml
+[1.867s] 5: No code style divergence in file 'multithreaded_executor.cpp'
+[1.867s] 5: 
+[1.867s] 5: No problems found
+[1.868s] 5: -- run_test.py: return code 0
+[1.868s] 5: -- run_test.py: verify result file '/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/uncrustify.xunit.xml'
+[1.868s] 5/6 Test #5: uncrustify .......................   Passed    0.20 sec
+[1.868s] test 6
+[1.868s]     Start 6: xmllint
+[1.868s] 
+[1.868s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/xmllint.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/ament_xmllint/xmllint.txt" "--command" "/opt/ros/iron/bin/ament_xmllint" "--xunit-file" "/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/xmllint.xunit.xml"
+[1.869s] 6: Test timeout computed to be: 60
+[1.869s] 6: -- run_test.py: invoking following command in '/home/andrey/Documents/workspace/src/examples/rclcpp/executors/multithreaded_executor':
+[1.869s] 6:  - /opt/ros/iron/bin/ament_xmllint --xunit-file /home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/xmllint.xunit.xml
+[1.869s] 6: File 'package.xml' is valid
+[1.870s] 6: 
+[1.870s] 6: No problems found
+[1.870s] 6: -- run_test.py: return code 0
+[1.870s] 6: -- run_test.py: verify result file '/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/xmllint.xunit.xml'
+[1.870s] 6/6 Test #6: xmllint ..........................   Passed    0.47 sec
+[1.870s] 
+[1.871s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[1.871s] 
+[1.871s] Label Time Summary:
+[1.871s] copyright     =   0.26 sec*proc (1 test)
+[1.871s] cppcheck      =   0.21 sec*proc (1 test)
+[1.872s] cpplint       =   0.24 sec*proc (1 test)
+[1.872s] lint_cmake    =   0.17 sec*proc (1 test)
+[1.872s] linter        =   1.54 sec*proc (6 tests)
+[1.872s] uncrustify    =   0.20 sec*proc (1 test)
+[1.872s] xmllint       =   0.47 sec*proc (1 test)
+[1.872s] 
+[1.872s] Total Test time (real) =   1.54 sec
+[1.877s] Invoked command in '/home/andrey/Documents/workspace/build/examples_rclcpp_multithreaded_executor' returned '0': AMENT_PREFIX_PATH=/home/andrey/Documents/workspace/install/examples_rclcpp_multithreaded_executor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/andrey/Documents/workspace/install/examples_rclcpp_multithreaded_executor /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

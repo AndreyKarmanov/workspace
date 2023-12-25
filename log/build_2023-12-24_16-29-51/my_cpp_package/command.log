@@ -1,0 +1,6 @@
+Invoking command in '/home/andrey/Documents/workspace/build/my_cpp_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/andrey/Documents/workspace/src/my_cpp_package -DCMAKE_INSTALL_PREFIX=/home/andrey/Documents/workspace/install/my_cpp_package
+Invoked command in '/home/andrey/Documents/workspace/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/andrey/Documents/workspace/src/my_cpp_package -DCMAKE_INSTALL_PREFIX=/home/andrey/Documents/workspace/install/my_cpp_package
+Invoking command in '/home/andrey/Documents/workspace/build/my_cpp_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/andrey/Documents/workspace/build/my_cpp_package -- -j12 -l12
+Invoked command in '/home/andrey/Documents/workspace/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/andrey/Documents/workspace/build/my_cpp_package -- -j12 -l12
+Invoking command in '/home/andrey/Documents/workspace/build/my_cpp_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/andrey/Documents/workspace/build/my_cpp_package
+Invoked command in '/home/andrey/Documents/workspace/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/andrey/Documents/workspace/build/my_cpp_package
