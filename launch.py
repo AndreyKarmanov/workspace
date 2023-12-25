@@ -22,7 +22,7 @@ def generate_launch_description():
     description='Argument for addThree_c'
   )
 
-  # other way to run Node
+  # other way to run Node, lower level.  (can also run other executables)
   # client_node = ExecuteProcess( 
   #   cmd=['ros2', 'run', 'my_services', 'client_node', LaunchConfiguration('addThree_a'), LaunchConfiguration('addThree_b'), LaunchConfiguration('addThree_c')],
   #   output='screen'

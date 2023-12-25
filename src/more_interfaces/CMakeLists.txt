@@ -10,12 +10,26 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+
+find_package(geometry_msgs REQUIRED) # needed for the Sphere.mgs
 find_package(rosidl_default_generators REQUIRED)
+
 set(msg_files 
-  "msg/AddressBook.msg")
+  "msg/AddressBook.msg"
+  "msg/Num.msg"
+  "msg/Sphere.msg")
+
+set(srv_files 
+  "srv/AddThreeInts.srv")
+
+set(action_files 
+  "action/Fibonacci.action")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-${msg_files} # if there are dependencies, we'll have to add them after.
+${msg_files}
+${srv_files}
+${action_files}
+DEPENDENCIES geometry_msgs
 )
 ament_export_dependencies(rosidl_default_runtime)
 
