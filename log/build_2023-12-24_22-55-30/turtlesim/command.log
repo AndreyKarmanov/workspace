@@ -1,4 +1,0 @@
-Invoking command in '/home/andrey/Documents/workspace/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/andrey/Documents/workspace/build/turtlesim -- -j12 -l12
-Invoked command in '/home/andrey/Documents/workspace/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/andrey/Documents/workspace/build/turtlesim -- -j12 -l12
-Invoking command in '/home/andrey/Documents/workspace/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/andrey/Documents/workspace/build/turtlesim
-Invoked command in '/home/andrey/Documents/workspace/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/andrey/Documents/workspace/build/turtlesim
