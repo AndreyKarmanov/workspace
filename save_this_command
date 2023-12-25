@@ -1,0 +1,14 @@
+modmap:
+  - name: remappingCaps
+    remap:
+      CapsLock: SUPER_R
+keymap:
+  - name: arrows
+    remap:
+      SUPER_R-i: up
+      SUPER_R-k: down
+      SUPER_R-l: right
+      SUPER_R-j: left
+
+
+https://github.com/k0kubun/xremap#Configuration
