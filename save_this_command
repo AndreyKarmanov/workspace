@@ -9,6 +9,9 @@ keymap:
       SUPER_R-k: down
       SUPER_R-l: right
       SUPER_R-j: left
+      SUPER_R-o: NEXTSONG
+      SUPER_R-u: PREVIOUSSONG
+      SUPER_R-p: PLAYPAUSE
 
 
 https://github.com/k0kubun/xremap#Configuration

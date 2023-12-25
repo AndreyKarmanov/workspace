@@ -1,3 +1,3 @@
 {
-    "python.analysis.extraPaths": ["./build/**/lib/python3.10/site-packages"]
+    "python.analysis.extraPaths": ["./install/tutorial_interfaces/lib/python3.10/site-packages/"]
 }
