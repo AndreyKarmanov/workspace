@@ -3,8 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/opt/ros/iron/include/**"
+                "${workspaceFolder}/**", // this doesn't seem to work... hence the next line
+                "${workspaceFolder}/install/**", // for header files in install folder, e.g. generated messages
+                "/opt/ros/iron/include/**", // for header files in ROS
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
