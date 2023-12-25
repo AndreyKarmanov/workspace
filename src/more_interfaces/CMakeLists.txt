@@ -15,10 +15,29 @@ set(msg_files
   "msg/AddressBook.msg")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  ${msg_files} # if there are dependencies, we'll have to add them after.
+${msg_files} # if there are dependencies, we'll have to add them after.
 )
-
 ament_export_dependencies(rosidl_default_runtime)
+
+
+
+# create Node executable
+find_package(rclcpp REQUIRED)
+
+add_executable(publish_address_book src/publish_address_book.cpp)
+ament_target_dependencies(publish_address_book rclcpp)
+
+
+install(TARGETS
+publish_address_book
+DESTINATION lib/${PROJECT_NAME})
+
+# link against the interface
+rosidl_get_typesupport_target(cpp_typesupport_target
+${PROJECT_NAME} rosidl_typesupport_cpp)
+
+target_link_libraries(publish_address_book "${cpp_typesupport_target}")
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
