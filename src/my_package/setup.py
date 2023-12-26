@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
             'my_node = my_package.my_node:main',
             'talker = my_package.my_publisher:main',
-            'listener = my_package.my_subscriber:main'
+            'listener = my_package.my_subscriber:main',
+            'action_server = my_package.my_action_server:main',
+            'action_client = my_package.my_action_client:main'
         ],
     },
 )

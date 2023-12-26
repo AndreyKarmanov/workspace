@@ -1,9 +1,11 @@
 {
     "python.analysis.extraPaths": [
-        "./install/tutorial_interfaces/lib/python3.10/site-packages/"
+        "./install/more_interfaces/lib/python3.10/site-packages/"
     ],
     "files.associations": {
         "*.c": "cpp",
-        "chrono": "cpp"
-    }
+        "chrono": "cpp",
+        "functional": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }

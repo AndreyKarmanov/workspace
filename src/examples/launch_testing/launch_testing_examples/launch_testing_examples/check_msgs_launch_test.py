@@ -14,7 +14,7 @@
 
 import unittest
 
-import launch as launch
+import my_services.launch.launch as launch
 import launch.actions
 import launch_ros.actions
 import launch_testing.actions
